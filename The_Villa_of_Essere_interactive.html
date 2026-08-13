@@ -45,7 +45,7 @@ header{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;justify-conte
 @media(max-width:920px){.stage{grid-template-columns:1fr}}
 
 /* ---- casa ---- */
-.house{position:relative;padding-top:118px}
+.house{position:relative;padding-top:132px}
 .roof{position:absolute;inset:0 0 auto;height:132px;
   background:linear-gradient(to bottom right,transparent 49.6%,#C1553F 49.7%) left/50% 100% no-repeat,
              linear-gradient(to bottom left ,transparent 49.6%,#C1553F 49.7%) right/50% 100% no-repeat;
@@ -144,7 +144,23 @@ header{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start;justify-conte
 .motion td.d{background:var(--dir-l);color:var(--dir)}
 .motion td.m{background:var(--fuori-l);color:var(--fuori)}
 .motion .closing{margin:14px 0 0;font-size:15px;font-weight:600}
-@media(max-width:700px){.motion tbody th{width:auto;display:block}.motion td{display:block}}
+/* On phones, turn each comparison row into a compact, labelled card. */
+@media(max-width:700px){
+  .motion{padding:16px 12px}
+  .motion table,.motion tbody,.motion tr,.motion th,.motion td{display:block;width:100%}
+  .motion thead{display:none}
+  .motion tr{margin:14px 0;border:1px solid #E2DCD2;border-radius:10px;overflow:hidden}
+  .motion tbody th{padding:10px 12px;background:#F2EFE8;color:var(--ink);font-size:14px;font-weight:800;border:0}
+  .motion td{padding:10px 12px 12px;border:0}
+  .motion td.d::before,.motion td.m::before{display:block;margin-bottom:4px;font-size:11px;font-weight:800;letter-spacing:.7px}
+  .motion td.d::before{content:"DIRECTED MOTION → ESSERE"}
+  .motion td.m::before{content:"MANNER OF MOTION → AVERE"}
+}
+@media(max-width:620px){
+  .golden{min-width:0;width:100%;padding:12px}
+  .steps li{grid-template-columns:24px 1fr}
+  .steps .res{grid-column:2;padding-top:0}
+}
 /* ---- quiz ---- */
 .quiz{margin-top:26px;border:2px solid var(--ink);border-radius:14px;padding:18px 22px;background:#fff}
 .quiz h3{margin:0 0 4px;font-size:20px}
