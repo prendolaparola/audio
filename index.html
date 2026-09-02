@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prendo la parola — Ascolti</title>
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --bg: #faf9f7;
+    --card: #ffffff;
+    --ink: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #1f6f4f;
+    --line: #e6e4e0;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100svh;
+    padding: 24px 20px calc(24px + env(safe-area-inset-bottom));
+    line-height: 1.5;
+  }
+  .card {
+    width: 100%;
+    max-width: 460px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 28px 24px 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.04);
+  }
+  .eyebrow {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 8px;
+  }
+  h1 {
+    font-size: 24px;
+    line-height: 1.25;
+    margin: 0 0 6px;
+    font-weight: 650;
+    letter-spacing: -.01em;
+  }
+  .sub { margin: 0 0 22px; color: var(--muted); font-size: 15px; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { border-top: 1px solid var(--line); }
+  li a {
+    display: block;
+    padding: 14px 0;
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: 550;
+  }
+  li a span { display: block; font-weight: 400; font-size: 14px; color: var(--muted); }
+  li a:hover { color: var(--accent); }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a; --card: #1c1f24; --ink: #f0efed;
+      --muted: #9b9b9b; --accent: #6ec49b; --line: #2c3037;
+    }
+    .card { box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">Prendo la parola</p>
+    <h1>Ascolti</h1>
+    <p class="sub">Ogni unità del libro ha la sua traccia. Di solito ci arrivi con il codice QR.</p>
+    <ul>
+      <li><a href="1/">Traccia 1 — Estratti A e B <span>Unità 1 · Intelligenza artificiale e vita quotidiana</span></a></li>
+      <li><a href="2/">Traccia 2 — Lo butto oggi o lo butto domani? <span>Unità 2 · Cibo: cucinare, ordinare, sprecare</span></a></li>
+    </ul>
+  </main>
+</body>
+</html>
