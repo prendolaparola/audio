@@ -29,6 +29,7 @@ mettere il file nella cartella sbagliata, e si sente al primo play.
 |----|--------|--------|-----------------|-----|
 | 1 | Estratti A e B | 2:21 | 1 - Intelligenza artificiale e vita quotidiana | /audio/1/ |
 | 2 | Lo butto oggi o lo butto domani? | 1:02 | 2 - Cibo: cucinare, ordinare, sprecare | /audio/2/ |
+| 3 | La lavatrice della signora Bruni | 2:29 | 3 - Gestire una casa | /audio/3/ |
 
 ## Aggiungere la traccia dell'unita N
 
