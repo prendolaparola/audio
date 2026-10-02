@@ -32,7 +32,6 @@ mettere il file nella cartella sbagliata, e si sente al primo play.
 | 3 | La lavatrice della signora Bruni | 2:29 | 3 - Gestire una casa | /audio/3/ |
 | 4 | Le scuse di Luca | 1:34 | 4 - Corpo in movimento | /audio/4/ |
 | 5 | Come nelle foto? | 1:27 | 5 - Viaggiare oggi | /audio/5/ |
-| 5 | Come nelle foto? | 1:27 | 5 - Viaggiare oggi | /audio/5/ |
 
 ## Aggiungere la traccia dell'unita N
 
