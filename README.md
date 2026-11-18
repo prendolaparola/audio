@@ -33,6 +33,7 @@ mettere il file nella cartella sbagliata, e si sente al primo play.
 | 4 | Le scuse di Luca | 1:34 | 4 - Corpo in movimento | /audio/4/ |
 | 5 | Come nelle foto? | 1:27 | 5 - Viaggiare oggi | /audio/5/ |
 | 6 | Posso lavorare da casa? | 1:25 | 6 - Lavoro e tempo libero | /audio/6/ |
+| 7 | Musica fino all'una | 1:41 | 7 - Amici, vicini e gruppi WhatsApp | /audio/7/ |
 
 ## Aggiungere la traccia dell'unita N
 
